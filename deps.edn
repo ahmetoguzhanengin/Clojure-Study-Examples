@@ -1,1 +1,13 @@
-{:deps {org.clojure/data.json {:mvn/version "2.4.0"}}}
+{:deps {org.clojure/data.json {:mvn/version "2.4.0"}
+        djblue/portal {:mvn/version "0.6.3"}
+        com.datomic/local {:mvn/version "1.0.267"}}}
+
+
+
+
+
+
+
+
+
+
