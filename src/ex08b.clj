@@ -1,4 +1,5 @@
-(ns exo8b)
+(ns ex08b)
+
 ; aynı veritabanını fulcro formatında yapmayı deneyelim
 (def db-sample {
                 :person                  {1 {:person/id 1 :name "dan" :surname "stone" :joindate "01.06.2022" :experience :experience/starter :loyalitylevel :loyality-level/zero-one-years :worktime :worktime/internship :managers {:manager/id 1}}
