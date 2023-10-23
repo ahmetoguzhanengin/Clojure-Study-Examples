@@ -1,7 +1,10 @@
-{:deps {org.clojure/data.json {:mvn/version "2.4.0"}
+{:mvn/repos
+ {"my.datomic.com" {:url "https://my.datomic.com/repo"}}
+ :deps {org.clojure/data.json {:mvn/version "2.4.0"}
         djblue/portal {:mvn/version "0.6.3"}
         com.datomic/local {:mvn/version "1.0.267"}
-        datascript/datascript {:mvn/version "1.3.12"}}}
+        datascript/datascript {:mvn/version "1.3.12"}
+        com.datomic/datomic-pro {:mvn/version "1.0.6711"}}}
 
 
 
